@@ -5,7 +5,7 @@
  * Exemplos Classe para modelar um animal
  * 
  * */
-public class Animal {
+abstract class Animal {
 
 	// atributos
 	private String corPelo;

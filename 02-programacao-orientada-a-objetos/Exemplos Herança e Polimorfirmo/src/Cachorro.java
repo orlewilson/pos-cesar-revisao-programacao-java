@@ -97,11 +97,20 @@ public class Cachorro extends Animal {
 		System.out.println("Auuu, late coração...");
 	}
 
-	public void escrever() {
-		System.out.println("turma arretada!");
+	public void escrever(String palavra) {
+		System.out.println("turma arretada!" +  palavra);
 	}
 
 	public void verHoras() {
 		System.out.println("São 15h");
 	}
+	
+	// polimorfismo (sobreescrita)
+	public void caminhar() {
+		System.out.println("caminhando com o dono..");
+	}
+
+	public void correr() {
+		System.out.println("correndo atrás do motoqueiro");
+	} 
 }
