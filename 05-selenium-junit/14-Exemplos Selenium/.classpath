@@ -89,5 +89,6 @@
 	<classpathentry kind="lib" path="libs/selenium-support-4.1.2.jar"/>
 	<classpathentry kind="lib" path="libs/selenium-support-4.1.2-sources.jar"/>
 	<classpathentry kind="lib" path="libs/slf4j-api-1.7.35.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
