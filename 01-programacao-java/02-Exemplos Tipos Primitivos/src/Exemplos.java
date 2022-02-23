@@ -39,6 +39,7 @@ public class Exemplos {
 		System.out.println("Nome: " + nome);
 		System.out.println("Tamanho: " + nome.length());
 		System.out.println("Caracter posição 2: " + nome.charAt(2));
-		System.out.println("Comparação: " + nome.compareTo("Orlewilson"));
+		System.out.println("Comparação: " + (nome.compareTo("Orlewilson") == 0));
+		System.out.println("Comparação: " + nome.equals("Orlewilson"));
 	}
 }
