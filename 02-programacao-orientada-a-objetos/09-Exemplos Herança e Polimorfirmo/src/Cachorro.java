@@ -98,13 +98,13 @@ public class Cachorro extends Animal {
 	}
 
 	public void escrever(String palavra) {
-		System.out.println("turma arretada!" +  palavra);
+		System.out.println("turma arretada!" + palavra);
 	}
 
 	public void verHoras() {
 		System.out.println("São 15h");
 	}
-	
+
 	// polimorfismo (sobreescrita)
 	public void caminhar() {
 		System.out.println("caminhando com o dono..");
@@ -112,5 +112,5 @@ public class Cachorro extends Animal {
 
 	public void correr() {
 		System.out.println("correndo atrás do motoqueiro");
-	} 
+	}
 }
