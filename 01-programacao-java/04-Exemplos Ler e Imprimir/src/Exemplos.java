@@ -25,6 +25,7 @@ public class Exemplos {
 		int numero = ler.nextInt();
 		System.out.println("número lido: " + numero);
 
+		// encerrar a leitura do console
 		ler.close();
 	}
 }
