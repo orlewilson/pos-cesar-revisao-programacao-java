@@ -15,7 +15,7 @@ public class Cachorro {
 	private String raca;
 	private double altura; // metros
 	private String corFucinho;
-	
+
 	// gets e sets para cada atributo
 	public void setCorPelo(String corPelo) {
 		if (corPelo.equals("")) {

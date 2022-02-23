@@ -27,29 +27,29 @@ public class Exemplos {
 //		toto.raca = "viralata";
 //		toto.corPelo = "amarelo";
 		// depois
-//		System.out.println("Informe a cor do pelo: ");
-//		toto.setCorPelo(valorLido.nextLine());
-		
+		System.out.println("Informe a cor do pelo: ");
+		toto.setCorPelo(valorLido.nextLine());
+
 //		String corPelo = JOptionPane.showInputDialog("Informe a cor do pelo");
 //		toto.setCorPelo(corPelo);
 
-//		System.out.println("Informe os acessórios: ");
-//		toto.setAcessorios(valorLido.nextLine());
-		
+		System.out.println("Informe os acessórios: ");
+		toto.setAcessorios(valorLido.nextLine());
+
 		System.out.println("Informe a altura: ");
-		toto.setAltura(Double.parseDouble(valorLido.nextLine().replace(',','.')));
-		
+		toto.setAltura(Double.parseDouble(valorLido.nextLine().replace(',', '.')));
+
 //		double altura = Double.parseDouble(JOptionPane.showInputDialog("Informe a altura"));
 //		toto.setAltura(altura);
+
+		System.out.println("Informe a cor fucinho: ");
+		toto.setCorFucinho(valorLido.nextLine());
 		
-//		System.out.println("Informe a cor fucinho: ");
-//		toto.setCorFucinho(valorLido.nextLine());
-//		
-//		System.out.println("Informe o peso: ");
-//		toto.setPeso(Double.parseDouble(valorLido.nextLine()));
-//		
-//		System.out.println("Informe a raça: ");
-//		toto.setRaca(valorLido.nextLine());
+		System.out.println("Informe o peso: ");
+		toto.setPeso(Double.parseDouble(valorLido.nextLine()));
+		
+		System.out.println("Informe a raça: ");
+		toto.setRaca(valorLido.nextLine());
 
 		// mostrar dados do Totó
 //		antes
@@ -74,7 +74,7 @@ public class Exemplos {
 		toto.falar();
 		toto.latir();
 		toto.verHoras();
-		
+
 		valorLido.close();
 	}
 }
