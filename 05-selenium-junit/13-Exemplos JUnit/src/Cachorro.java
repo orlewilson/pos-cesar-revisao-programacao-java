@@ -106,8 +106,9 @@ public class Cachorro extends Animal {
 	}
 
 	// polimorfismo (sobreescrita)
-	public void caminhar() {
+	public String caminhar() {
 		System.out.println("caminhando com o dono..");
+		return "caminhando com o dono..";
 	}
 
 	public void correr() {

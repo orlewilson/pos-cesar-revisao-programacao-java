@@ -61,7 +61,11 @@ abstract class Animal {
 	}
 
 	public void setPeso(double peso) {
-		this.peso = peso;
+		if (peso < 0) {
+			System.out.println("Informe um valor positivo");
+		} else {
+			this.peso = peso;
+		}
 	}
 
 	public String getRaca() {
@@ -81,8 +85,9 @@ abstract class Animal {
 	}
 
 	// outros métodos
-	public void caminhar() {
+	public String caminhar() {
 		System.out.println("caminhando...");
+		return "caminhando...";
 	}
 
 	public void correr() {
