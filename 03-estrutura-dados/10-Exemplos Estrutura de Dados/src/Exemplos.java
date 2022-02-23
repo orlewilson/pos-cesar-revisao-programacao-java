@@ -1,9 +1,3 @@
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.Deque;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
 
 /*
  * Revisão de Programação
@@ -12,6 +6,12 @@ import java.util.Queue;
  * Exemplos de Estrutura de Dados (Lista, Fila e Pilha)
  * 
  * */
+
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.Deque;
+import java.util.LinkedList;
+import java.util.List;
 
 public class Exemplos {
 	public static void main(String[] args) {
@@ -89,6 +89,5 @@ public class Exemplos {
 		System.out.println(pilhaNomes);
 
 		System.out.println("Topo a pilha? " + pilhaNomes.peek());
-
 	}
 }
