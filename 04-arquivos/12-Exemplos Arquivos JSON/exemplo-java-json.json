@@ -1,0 +1,21 @@
+{
+    "disciplinas": [{
+        "professor": "Orlewilson Bentes Maia",
+        "nome": "Revisão de Programação"
+    }],
+    "curso": "Especialização em Testes Ágeis",
+    "alunos": [
+        {
+            "matricula": 12344,
+            "nome": "Lucas"
+        },
+        {
+            "matricula": 12345,
+            "nome": "Márcia"
+        },
+        {
+            "matricula": 12346,
+            "nome": "Marília"
+        }
+    ]
+}
