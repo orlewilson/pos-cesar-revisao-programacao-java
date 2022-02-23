@@ -1,7 +1,3 @@
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.FileWriter;
-
 /*
  * Revisão de Programação
  * Orlewilson Maia
@@ -9,7 +5,12 @@ import java.io.FileWriter;
  * Exemplos Manipulação de Arquivos TXT em Java
  * 
  * */
-public class ExemplosArquivos {
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.FileWriter;
+
+public class Exemplos {
 
 	public static void main(String[] args) {
 
@@ -46,16 +47,16 @@ public class ExemplosArquivos {
 			FileReader arquivo2 = new FileReader("nomes.txt");
 
 			BufferedReader buffer = new BufferedReader(arquivo2);
-			
+
 			String linhaLida;
 			while ((linhaLida = buffer.readLine()) != null) {
 				System.out.println(linhaLida);
 			}
-			
+
 			arquivo2.close();
-						
+
 		} catch (Exception e) {
-			 System.err.println(e.getMessage());
+			System.err.println(e.getMessage());
 		}
 
 	}
