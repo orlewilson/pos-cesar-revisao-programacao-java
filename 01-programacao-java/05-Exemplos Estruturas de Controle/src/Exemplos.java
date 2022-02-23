@@ -17,6 +17,7 @@ public class Exemplos {
 		System.out.println("Digite algum número");
 		int numero = lerConsole.nextInt();
 
+		System.out.println("----- If");
 		if (numero >= 50) {
 			System.out.println("número é maior ou igual a 50");
 		} else if (numero >= 20 && numero <= 30) {
@@ -27,6 +28,7 @@ public class Exemplos {
 
 		lerConsole.close();
 
+		System.out.println("----- Switch");
 		switch (numero) {
 		case 50:
 			System.out.println("número é igual a 50");
@@ -41,7 +43,7 @@ public class Exemplos {
 		int cont = 0;
 //		cont2++ == cont2 = cont2 + 1
 
-		System.out.println("For");
+		System.out.println("----- For");
 		for (int cont2 = 0; cont2 < 10; cont2++) {
 			System.out.println(cont2);
 		}
@@ -54,6 +56,7 @@ public class Exemplos {
 			System.out.println(cont);
 		}
 
+		System.out.println("----- While");
 		System.out.println("While");
 		cont = 0;
 		while (cont < 10) {
@@ -61,7 +64,7 @@ public class Exemplos {
 			cont++;
 		}
 
-		System.out.println("Do While");
+		System.out.println("----- Do While");
 		cont = 0;
 		do {
 			System.out.println(cont);
